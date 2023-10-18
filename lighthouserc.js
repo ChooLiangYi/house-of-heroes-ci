@@ -2,10 +2,10 @@ module.exports = {
     ci: {
       collect: {
         numberOfRuns: 3,
-        startServerReadyTimeout: 100000,
-        startServerCommand: 'npm run start',
+        startServerReadyTimeout: 10000000,
+        startServerCommand: 'npm run prerender',
         startServerReadyPattern: /^Angular Live Development Server is listening/,
-        url: ['http://localhost:4200/'],
+        url: ['http://localhost:4000/'],
         settings: {
           onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
           skipAudits: ['uses-http2'],
