@@ -5,7 +5,7 @@ module.exports = {
         startServerReadyTimeout: 10000000,
         startServerCommand: 'npm run start',
         startServerReadyPattern: /^Angular Live Development Server is listening/,
-        url: ['http://localhost:4000/'],
+        url: ['http://localhost:4200/'],
         settings: {
           onlyCategories: ['performance', 'accessibility', 'best-practices', 'seo'],
           skipAudits: ['uses-http2'],
