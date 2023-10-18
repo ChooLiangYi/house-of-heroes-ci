@@ -3,7 +3,7 @@ module.exports = {
       collect: {
         numberOfRuns: 3,
         startServerReadyTimeout: 10000000,
-        startServerCommand: 'npm run prerender',
+        startServerCommand: 'npm run start',
         startServerReadyPattern: /^Angular Live Development Server is listening/,
         url: ['http://localhost:4000/'],
         settings: {
